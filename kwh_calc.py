@@ -27,7 +27,7 @@ units_diff = total_units - curr_units
 date_diff = curr_date - date_in
 print("Number of days used", date_diff.days, "days")
 print("\n")
-
+print("Consider the below;")
 units_per_week = format(units_diff/(date_diff.days/7), '.5f')
 units_per_day = format(units_diff/date_diff.days, '.5f')
 units_per_hour = format(units_diff/(date_diff.days*24), '.5f')
